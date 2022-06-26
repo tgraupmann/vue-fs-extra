@@ -4,7 +4,7 @@
 
 * Note browsers cannot access the FileSystem due to security reasons. Issue - [Unable to require 'fs' with Vue CLI 3](https://stackoverflow.com/questions/52420663/unable-to-require-fs-with-vue-cli-3)
 
-* Exposing fs-extra through WebPack globals as module won't get around the browser security. [Define global variable with webpack](https://stackoverflow.com/questions/37656592/define-global-variable-with-webpack)
+* Exposing fs-extra through WebPack globals as module won't get around the browser security. Example of custom WebPack module - [Define global variable with webpack](https://stackoverflow.com/questions/37656592/define-global-variable-with-webpack)
 
 * The workaround is to access `fs-extra` during the webpack bootstrap.
 
